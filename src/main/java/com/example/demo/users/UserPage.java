@@ -12,5 +12,5 @@ public class UserPage {
     @JsonProperty("item_per_page")
     private int itemPerPage;
 
-    private List<UsersResponse> users;
+    private List<User> users;
 }
